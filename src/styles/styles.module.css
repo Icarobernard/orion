@@ -1,0 +1,8 @@
+@keyframes slow-gif {
+    0% { background-position: 0 0; }
+    100% { background-position: 100% 0; }
+  }
+  
+  .slow-gif {
+    animation: slow-gif 5s infinite linear; /* Ajuste a duração (5s) conforme necessário para controlar a velocidade da animação */
+  }
